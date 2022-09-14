@@ -1,6 +1,9 @@
 #include "main.h"
 /**
- * jack_bauer - prints 24 hours
+ * jack_bauer - prints every minute of the day ,24 hr clock
+ * i = hour, j = minutes
+ * / 10 allows functions to rotate
+ * Return: 24 hour clock line by line
  */
 void jack_bauer(void)
 {
